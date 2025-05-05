@@ -1,0 +1,75 @@
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.env
+
+# 日志文件
+*.log
+
+# 结果文件夹
+results*/
+
+# 数据文件夹 (大型文件)
+data/*.jsonl
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 临时文件
+tmp/
+temp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 安全信息
+.env
+credentials.json
+*_key.json
+*_token.json
+
+# 模型缓存
+.cache/
+.vector_cache/
+
+# 其他临时文件
+.coverage
+htmlcov/
+__pycache__
+.vscode
+*.DS_Store
+*.pyc
+src/plot
+*.jsonl
+*.json
+*.txt
+*.log
+!requirements.txt
+!LICENSE.txt
